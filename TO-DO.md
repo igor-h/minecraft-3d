@@ -1,4 +1,4 @@
-- [] Boilerplate
+- [x] Boilerplate
 - [] Sky
 - [] Textures and images
 - [] Ground
@@ -8,6 +8,6 @@
 - [] Movement
 - [] State management
 - [] Cubes
-- [] Cube type selector
+- [] Cube type selector (Hotbar)
 - [] Save world in localstorage
 - [] Build a house
