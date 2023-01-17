@@ -22,7 +22,19 @@ export const useStore = create((set) => ({
         }))
     },
     removeCube: () => { },
-    setTexture: () => { },
-    saveWorld: () => { },
-    resetWorld: () => { }
+    setTexture: () => { 
+        set(() => ({
+			// texture
+		}))
+    },
+    saveWorld: () => { 
+        set((prev) => {
+			// setLocalStorage('cubes', prev.cubes)
+		})
+    },
+    resetWorld: () => {
+        set(() => ({
+			cubes: []
+		}))
+     }
 }))

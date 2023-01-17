@@ -9,6 +9,7 @@
 - [x] Movement
 - [x] State management
 - [x] Cubes
+- [x] Add cubes to the map
 - [] Cube type selector (Hotbar)
 - [] Save world in localstorage
 - [] Build a house
