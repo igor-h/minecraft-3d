@@ -10,6 +10,7 @@
 - [x] State management
 - [x] Cubes
 - [x] Add cubes to the map
-- [] Cube type selector (Hotbar)
+- [] Remove existing cubes from the map 
+- [x] Cube type selector (toolbar)
 - [] Save world in localstorage
 - [] Build a house

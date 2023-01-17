@@ -15,6 +15,7 @@ export const Ground = () => {
         onClick={(e) => {
             e.stopPropagation()
             const [x, y, z] = Object.values(e.point).map(val => Math.ceil(val))
+            console.log("-------[Clicked On (X: " + x + " Y: "+ y + " Z: "+z +")")
             addCube(x, y, z)
         }}
         ref={ref}>

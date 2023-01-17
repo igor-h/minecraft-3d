@@ -6,6 +6,7 @@ import { Player } from './components/Player'
 import { Vector3 } from 'three';
 import { FPV } from './components/FPV';
 import { Cubes } from './components/Cubes';
+import { TextureSelector } from './components/TextureSelector';
 
 function App() {
   // previous  sunPosition={[100,100, 20]}
@@ -22,6 +23,7 @@ function App() {
         </Physics>
       </Canvas>
       <div className='absolute centered cursor'>+</div>
+      <TextureSelector />
     </>
   );
 }

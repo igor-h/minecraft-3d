@@ -49,13 +49,21 @@ code {
 .centered {
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }
 .cursor {
   color: white;
 }
 
 .texture-selector {
-  transform: scale(5);
+  margin-top: 200px;
+  transform: scale(4);
 }
 
+.texture-selector img.active { 
+  border: 2px solid red;
+}
+
+.texture-selector img.inactive { 
+  border: 1px solid #aeaeae;
+}
