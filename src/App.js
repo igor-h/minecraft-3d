@@ -4,15 +4,19 @@ import { Physics } from '@react-three/cannon';
 import { Ground } from './components/Ground';
 import { Player } from './components/Player'
 import { Vector3 } from 'three';
+import { FPV } from './components/FPV';
 function App() {
+
+  // previous  sunPosition={[100,100, 20]}
   return (
     <>
       <Canvas>
-        <Sky sunPosition={new Vector3(100,10,100)} />// [100,100, 20] 
-        <ambientLight intensity={0.5} />
+        <Sky sunPosition={new Vector3(100,10,100)} /> 
+        <ambientLight intensity={1} />
+        <FPV />
         <Physics>
-          <Ground />
           <Player />
+          <Ground />
         </Physics>
       </Canvas>
       <div className='absolute centered cursor'>+</div>

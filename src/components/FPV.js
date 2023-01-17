@@ -1,0 +1,11 @@
+import { PointerLockControls } from "@react-three/drei"
+import { useThree } from "@react-three/fiber"
+
+export const FPV = () => {
+    // Define Camera & WebGL Render (gl)
+    const { camera, gl } = useThree()
+
+    return(
+        <PointerLockControls arg={[camera, gl.domElement]} />
+    )
+}

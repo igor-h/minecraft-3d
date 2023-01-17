@@ -4,9 +4,9 @@
 - [x] Ground // pending to check
 - [x] Player
 - [x] Keyboard inputs
-- [] First person view
-- [] Gravity
-- [] Movement
+- [x] First person view
+- [x] Gravity
+- [x] Movement
 - [] State management
 - [] Cubes
 - [] Cube type selector (Hotbar)

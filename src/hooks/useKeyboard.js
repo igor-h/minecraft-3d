@@ -13,6 +13,8 @@ function actionByKey(key) {
 		Digit4: 'wood',
 		Digit5: 'log',
     }
+
+    return keyActionMap[key];
 }
 
 export const useKeyboard = () => {
@@ -32,6 +34,7 @@ export const useKeyboard = () => {
     const handleKeyDown = useCallback((e) => {
         const action = actionByKey(e.code)
         if (action) {
+            console.log("pressed key: " + e.code)
             setActions((prev) => {
                 return ({
                     ...prev,
