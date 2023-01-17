@@ -5,8 +5,9 @@ import { Ground } from './components/Ground';
 import { Player } from './components/Player'
 import { Vector3 } from 'three';
 import { FPV } from './components/FPV';
-function App() {
+import { Cubes } from './components/Cubes';
 
+function App() {
   // previous  sunPosition={[100,100, 20]}
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <FPV />
         <Physics>
           <Player />
+          <Cubes />
           <Ground />
         </Physics>
       </Canvas>
