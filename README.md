@@ -15,7 +15,7 @@ You may also see any lint errors in the console.
 #
 # In game screenshot:
 ## Menu:
-![image](https://user-images.githubusercontent.com/39650812/213939266-41ae4c42-894b-46e9-a383-fd943373bdcb.png)
+![image](https://user-images.githubusercontent.com/39650812/213940088-6a5bf0e7-bd79-4119-ba0c-0447b28ac0de.png)
 
 ## Gameplay:
 ![image](https://user-images.githubusercontent.com/39650812/213939310-d39fca84-73e0-490b-84d5-5126563384a5.png)
