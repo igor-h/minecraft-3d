@@ -10,11 +10,12 @@ import { TextureSelector } from './components/TextureSelector';
 
 function App() {
   // previous  sunPosition={[100,100, 20]}
+  // <pointLight castShadow intensity={0.8} position={[100, 100, 100]} />
   return (
     <>
       <Canvas>
         <Sky sunPosition={new Vector3(100,10,100)} /> 
-        <ambientLight intensity={1} />
+        <ambientLight intensity={0.3} />
         <FPV />
         <Physics>
           <Player />
