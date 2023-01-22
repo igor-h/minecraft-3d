@@ -15,9 +15,9 @@ function Overlay() {
                 </div>
                 <div className="menu">
                     <button onClick={() => setReady(true)}>Play</button>
+                    <button>Load Game</button>
                     <button>How to play?</button>
-                    <button>Options</button>
-                    <button>Quit game...</button>
+                    <button onClick={() => alert('Thanks for playing!')}>Quit game...</button>
                 </div>
             </div>
         </>
